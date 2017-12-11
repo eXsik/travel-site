@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     @mixin atMedium {
         display: flex;
         flex-direction: row;
@@ -11,6 +11,11 @@
 
         &--gutter > div:not(:last-child) {
             padding-right: 65px;
+        }
+
+        &__medium-6 {
+            flex: 0 1 45%;
+            align-self: flex-start;
         }
 
     }
