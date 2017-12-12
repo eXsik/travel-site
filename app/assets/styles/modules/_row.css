@@ -24,7 +24,7 @@
 
         &__medium-6 {
             flex: 0 1 45%;
-            align-self: flex-start;
+            align-self: auto;
         }
 
     }
