@@ -4,6 +4,11 @@
     justify-content: center;
     align-items: center;
 
+    &--t-padding {
+        padding-top: 80px;
+    }
+
+    
     @mixin atMedium {
         display: flex;
         flex-direction: row;
@@ -11,6 +16,10 @@
 
         &--gutter > div:not(:last-child) {
             padding-right: 65px;
+        }
+    
+        &--gutter-small > div:not(:last-child) {
+            padding-right: 45px;
         }
 
         &__medium-6 {
@@ -28,7 +37,7 @@
         }
         
         @mixin atMedium {
-            flex: 0 1 33.3333%;
+            flex: 0 1 30%;
         }
 
         &--larger {
