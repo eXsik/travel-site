@@ -3,6 +3,11 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
 
     var config = {
+      shape: {
+        spacing: {
+          padding: 1
+        }
+      },
         mode: {
           css: {
             render: {
