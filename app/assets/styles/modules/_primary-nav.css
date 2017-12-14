@@ -25,7 +25,6 @@
 
         @mixin atMedium {
             padding-right: 20px;
-            padding-top: 12px;
             float: left;
             display: block;
         }
@@ -51,6 +50,11 @@
         @mixin atMedium {
             background-color: transparent;
             font-size: 1rem;
+            padding: 12px 0;
+
+            &.is-current-link {
+                color: $mainSecondary;
+            }
         }
     }
 }
