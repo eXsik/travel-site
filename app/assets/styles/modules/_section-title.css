@@ -31,4 +31,8 @@
     &--primary {
         color: $mainPrimary;
     }
+
+    &--less-margin {
+        margin-bottom: 1.3rem;
+    }
 }
