@@ -1155,8 +1155,8 @@ a {
 
 .site-header__menu-content {
         opacity: 0;
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
+        -webkit-transform: scale(1);
+                transform: scale(1);
         -webkit-transition: all .5s ease-out;
         transition: all .5s ease-out;
         position: relative;
@@ -1171,16 +1171,16 @@ a {
             opacity: 1;
             z-index: 1;
             padding-top: 0;
-            -webkit-transform: scale(1);
-                    transform: scale(1)
+            -webkit-transform: scale(.9);
+                    transform: scale(.9)
     }
     }
 
 .site-header__menu-content--is-visible {
             opacity: 1;
             z-index: 1;
-            -webkit-transform: scale(1);
-                    transform: scale(1);
+            -webkit-transform: scale(.9);
+                    transform: scale(.9);
         }
 
 .site-header__menu-icon {
@@ -1342,14 +1342,14 @@ a {
     opacity: 0;
     -webkit-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
-    -webkit-transform: scale(1.15);
-            transform: scale(1.15);
+    -webkit-transform: scale(1);
+            transform: scale(1);
 }
 
 .reveal-item--is-visible {
         opacity: 1;
-        -webkit-transform: scale(1);
-                transform: scale(1);
+        -webkit-transform: scale(.9);
+                transform: scale(.9);
     }
 
 .modal {
