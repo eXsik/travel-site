@@ -1,0 +1,59 @@
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--t-padding {
+        padding-top: 80px;
+    }
+
+    
+    @mixin atMedium {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        &--gutter > div:not(:last-child) {
+            padding-right: 65px;
+        }
+    
+        &--gutter-small > div:not(:last-child) {
+            padding-right: 45px;
+        }
+
+        &__medium-6 {
+            flex: 0 1 45%;
+            align-self: auto;
+        }
+
+    }
+
+    &__4 {
+        flex: 0 1 100%;
+
+        &__image {
+            display: block;
+        }
+        
+        @mixin atMedium {
+            flex: 0 1 30%;
+        }
+
+        &--larger {
+            flex: 0 1 37%;
+        }
+    }
+
+    &__8 {
+        flex: 0 1 100%;
+
+        @mixin atMedium {
+            flex: 0 1 66.6666%;
+        }
+
+        &--smaller {
+            flex: 0 1 63%;
+        }
+    }
+}
